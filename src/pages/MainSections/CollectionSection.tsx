@@ -2,7 +2,7 @@ import { useGetCollectionQuery } from '@/features/Collections/ui/model/services/
 import Slider from '../MainComponents/Slider'
 import { Link } from 'react-router-dom'
 const CollectionSection = () => {
-	const { data, isLoading } = useGetCollectionQuery()
+	const { data } = useGetCollectionQuery()
 	// const dispatch = useAppDispatch();
 	// const products = useAppSelector(productsSelector);
 
